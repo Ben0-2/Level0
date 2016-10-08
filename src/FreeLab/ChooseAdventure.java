@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ChooseAdventure {
 	public static void main(String[] args) {
 		Scanner Hi = new Scanner(System.in);
+		while(true){
 		System.out.println(
 				"You are a top secret agent going to find out the murderer of the President of the United States of \n America, You are sitting on a chair at your desk. There is a letter sitting in front of you.");
 		String one = Hi.nextLine();
@@ -82,6 +83,7 @@ public class ChooseAdventure {
 			}
 			
 		}
+	}
 	}
 
 }
